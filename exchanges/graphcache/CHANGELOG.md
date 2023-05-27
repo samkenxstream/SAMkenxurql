@@ -1,5 +1,14 @@
 # @urql/exchange-graphcache
 
+## 6.0.5
+
+### Patch Changes
+
+- Update build process to generate correct source maps
+  Submitted by [@kitten](https://github.com/kitten) (See [#3201](https://github.com/urql-graphql/urql/pull/3201))
+- Retry operations against offline cache and stabilize timing of flushing failed operations queue after rehydrating the storage data
+  Submitted by [@kitten](https://github.com/kitten) (See [#3196](https://github.com/urql-graphql/urql/pull/3196))
+
 ## 6.0.4
 
 ### Patch Changes
